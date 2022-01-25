@@ -17,7 +17,7 @@ body {
 }
 /* Position and resize the image */
 .img {
-  width: 25rem;
+  width: 20rem;
   margin-top: -30rem;
   float: right;
 }
@@ -25,7 +25,7 @@ body {
 .form-login {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.794), rgba(255, 255, 255, 0));
   opacity: 50%;
-  width: 400px;
+  width: 45%;
   height: 340px;
   margin: auto;
   margin-top: 180px;
@@ -67,6 +67,7 @@ body {
 }
 
 .button-login{
+ 
   width: 40%;
   margin-bottom: 16px;
   --green: #1BFD9C;
@@ -107,8 +108,9 @@ body {
 
 .button2-login {
   width: 40%;
-  margin-bottom: 16px;
-  margin-left: 63px;
+  margin: auto;
+  margin-left: 102px;
+  
   --green: #1BFD9C;
   font-size: 15px;
   padding: 0.7em 2.7em;
