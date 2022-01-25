@@ -7,11 +7,13 @@
 
 #portfolio
 {
+    background-image:url('../img/backgroundteamlarge.png') ;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    min-height: 100vh;
 }
+
 .containerPort .cardPort .imgBxPort{
     display: flex;
     position: relative;
