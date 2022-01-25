@@ -5,33 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/about.css">
-    <link rel="stylesheet" href="../css/Services.css">
+    <link rel="stylesheet" href="../css/main-page.css">
     <link rel="stylesheet" href="../css/team.css">
 </head>
 <body>
-    <section class = "about">
+    <section class = "about-services">
         <div class="about-section">
             <div class="inner-containerAbout">
                 <h1>DarthCode</h1>
                 <p class="textAbout">
                     Somos un grupo de profesionales que busca generar beneficios a nuestros clientes por medio de soluciones digitales.
                 </p>
-                /*<div class="skills">
-                    <span>
-                        
-                    </span>
-                    <span>
-                        
-                    </span>
-                    <span>
-                        
-                    </span>
-                </div>*/
             </div>
         </div>
-    </section>
-    <section class = "services">
         <div class="Container">
             <div class="table">
                 <h2 class="textServices">Desarrollo Web</h2>
@@ -39,7 +25,7 @@
                 <p>Una plataforma completamente segura, robusta y a la medida para ti.</p>
                 <a href=""class = "button">Conoce Mas</a><br>
                 <div class="imgServices">
-                    <img src="./img/Desarrolloweb.png" alt="">
+                    <img src="../img/Desarrolloweb.png" alt="Desarrollador">
                 </div>
             </div>
             <div class="table">
@@ -48,7 +34,7 @@
                 <p>Ocupa los primeros puestos en Google y mas buscadores con nosotros !</p>
                 <a href=""class = "button">Conoce Mas</a><br>
                 <div class="imgServices">
-                    <img src="./img/SEO.png" alt="">
+                    <img src="../img/SEO.png" alt="PosicionamientoSEO">
                 </div>
             </div>
             <div class="table">
@@ -57,7 +43,7 @@
                 <p>Estamos para apoyarte objetivamente en cualquier decision que pueda ser tomada por intuicion. </p>
                 <a href=""class = "button">Conoce Mas</a><br>
                 <div class="imgServices">
-                <img src="./img/Digital.png" alt="">
+                <img src="../img/Digital.png" alt="Consultor">
                 </div>
             </div>
         </div>
@@ -69,7 +55,7 @@
         <div class="cardT">
         <div class="contentCards">
             <h3>01</h3>
-            <img src="img/darthcodeNeon.png" alt="darthCodeNeon" class="logoCard">
+            <img src="../img/darthcodeNeonVerde.png" alt="darthCodeNeon" class="logoCard">
             <h4>Erick Gonzalez</h4>
             <p>
             lider
@@ -82,7 +68,7 @@
         <div class="cardT">
         <div class="contentCards">
             <h3>02</h3>
-            <img src="img/darthcodeNeon.png" alt="darthCodeNeon" class="logoCard">
+            <img src="../img/darthcodeNeonVerde.png" alt="darthCodeNeon" class="logoCard">
             <h4>Alejandro Gaviria</h4>
             <p>
             Scrum
@@ -94,7 +80,7 @@
         <div class="cardT">
         <div class="contentCards">
             <h3>03</h3>
-            <img src="img/darthcodeNeon.png" alt="darthCodeNeon" class="logoCard">
+            <img src="../img/darthcodeNeonVerde.png" alt="darthCodeNeon" class="logoCard">
             <h4>Laura Quimbaya</h4>
             <p>
                 developer Team
@@ -106,7 +92,7 @@
         <div class="cardT">
         <div class="contentCards">
             <h3>04</h3>
-            <img src="img/darthcodeNeon.png" alt="darthCodeNeon" class="logoCard">
+            <img src="../img/darthcodeNeonVerde.png" alt="darthCodeNeon" class="logoCard">
             <h4>Michael Manrique</h4>
             <p>
                 developer team
@@ -118,7 +104,7 @@
         <div class="cardT">
         <div class="contentCards">
             <h3>05</h3>
-            <img src="img/darthcodeNeon.png" alt="darthCodeNeon" class="logoCard">
+            <img src="../img/darthcodeNeonVerde.png" alt="darthCodeNeon" class="logoCard">
             <h4>Camilo Chaparro</h4>
             <p>
                 developer Team
@@ -128,5 +114,15 @@
     </div>
     </div>       
 </section>
+<script type="text/javascript" src="../js/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".cardT"), 
+        {
+		    max: 25,
+	        speed: 400,
+            glare: true,
+            "max-glare": 1
+        });
+    </script>
 </body>
 </html>
